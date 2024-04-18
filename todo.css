@@ -1,0 +1,92 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.todo_list {
+    background-color: aqua;
+    padding: 30px 40px;
+    text-align: center;
+    font-size: 35px;
+    
+    
+}
+
+input {
+border: none;
+outline: none;
+width: 75%;
+padding: 10px;
+font-size: 25px;
+}
+.list_head {
+    display: flex;
+    justify-content: center;
+}
+.list_head > button {
+    border: none;
+    outline: none;
+    padding: 10px;
+    width: 100px;
+    font-size: 25px;
+    background-color: #bbc5bb;
+    text-align: center;
+} 
+.list_head > button:hover {
+    background-color: #919b91; 
+}
+.my_list {
+    background-color: #919b91; 
+    color:black ;
+    font-size: 35px;
+    padding: 2% 10%;
+    
+    
+} 
+.my_list ul {
+list-style: none;
+}
+
+li{
+    display: flex;
+    justify-content: space-between;
+}
+    
+
+
+
+
+
+
+
+/* let input = document.querySelector('input')
+let button = document.querySelector('#add_todo')
+let ul = document.querySelector('#my_ul')
+
+let todolist = []
+
+getData()
+
+function addtodo() {
+    console.log(input.value);
+    todolist.push(input.value)
+    localStorage.setItem("table", JSON.stringify(todolist))
+    getData()
+
+}  
+function getData() {
+    let list = JSON.parse(localStorage.getItem("table"))
+    console.log(list);
+    for (let i = 0; i < list.length; i++) {
+        let li = document.createElement('li')
+        li.innerHTML = list[i];
+        ul.appendChild(li)
+
+        let span = document.createElement('span')
+        span.innerHTML = ("X")
+        span.classList.add('cross')
+        li.appendChild(span)
+
+        li.style.display = 'flex'
+        li.style.justifyContent = 'space-between'
+        li.style.listStyle = 'none'
+ */
